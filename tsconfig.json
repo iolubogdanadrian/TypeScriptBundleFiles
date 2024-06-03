@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "module": "ES2020",
+    "importHelpers": false,
+    "isolatedModules": true,
+    "noEmitHelpers": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "outDir": "./wwwroot/js/",
+    "rootDir": "./wwwroot/ts",
+    "moduleResolution": "Node",
+    "removeComments": false,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2020"
+  },
+  "include": [
+    "./wwwroot/ts/**/*"
+  ]
+}
