@@ -1,13 +1,9 @@
-﻿import { UserFilter } from "./Services/UserFilter.js";
-
-class BoostrapperExample {
+﻿class BoostrapperExample {
 
     constructor() {
-        let userFilter = new UserFilter();
+        let userFilter = new FilterUsers();
 
         userFilter.showMessage();
         userFilter.showUser();
     }
 }
-
-new BoostrapperExample();

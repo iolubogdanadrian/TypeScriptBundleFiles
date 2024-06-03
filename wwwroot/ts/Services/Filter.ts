@@ -1,5 +1,5 @@
-﻿export class Filter {
-    public showMessage() :void {
+﻿class Filter {
+    public showMessage(): void {
         console.log("Filter class");
     }
 }
